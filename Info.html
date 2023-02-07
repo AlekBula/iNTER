@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ 
+  <meta charset="utf-8">
+  <title>ИНТЕР - Индустриальный парк</title>
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Construction Html5 Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+
+  <link rel="icon" type="image/png" href="images/free.png">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/scriptform.js"></script>
+    <script src="js/script.js"></script>
+    
+
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/colorbox/colorbox.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="body-inner">
+
+<header id="header" class="header-two">
+  <div class="site-navigation">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+
+                <div class="logo">
+                    <a class="d-block" href="index.html">
+                      <img loading="lazy" src="images/logo4.jpg" alt="Constra">
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                  
+                          <ul class="navbar-nav  mx-auto ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"> <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Галерея</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Scheme.html">Схема парка</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="Info.html" >О нас</a> -->
+              
+                      <li class="header-get-a-quote">
+                          <a class="btn btn-primary" href="Info.html">Контакты</a>
+                      </li>
+
+            </ul>
+                </div>
+              </nav>
+          </div>
+        </div>
+    </div>
+  </div>
+</header>
+
+  <div class="classs">
+    <div class="cnt">
+        <h3 class="column-title">Контакты</h3>
+        <p>Телефон: +7 (916) 323-70-13</p>
+        <p>         +7 (925) 867-48-25</p>
+        <p>E-Mail: fgd@gksplav.ru</p>
+        <p>Адрес: г.Павловский Посад, пер.Интернациональный, 38</p> 
+    </div>
+
+
+    <div class="map" >   
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af794bd84774a7b81714bed07e8a499b3a93f464a759b56c662adffce3f4fc76f&amp;width=560&amp;height=360&amp;lang=ru_RU&amp;scroll=true"></script>
+
+  </div>
+  
+
+
+
+
+<!-- 
+<form action="sender.php" method="post">
+        <input type="text" class="name" name="name" placeholder="Имя" required>
+        <input type="text" name="surname" placeholder="Фамилия" required>
+        <input type="text" class="phone" name="phone" placeholder="Телефон">
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="text" id="" cols="30" rows="10" placeholder="Введите текст"></textarea>
+        <button type="button" class="send-form">Отправить</button>
+        <div class="status"></div>
+    </form>  -->
+
+
+<form id="main-container" class="main-container">
+  <div class="container">
+
+    <!-- <div class="gap-60"></div> -->
+
+    <div class="row">
+      <div class="col-md-12">
+        <br><br>
+        <h3 class="column-title">Напишите нам!</h3>
+        <form id="contact-form" action="sender.php" method="post" role="form"  >
+          <div class="error-container"></div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <label>Имя</label>
+               <input class="name form-control form-control-name" name="name" id="name" placeholder="" type="text" required> 
+                  <!-- <input type="text" class="name" name="name" placeholder="Имя" required> -->
+              </div>
+            </div>
+             <div class="col-md-4">
+              <div class="form-group">
+                <label>Фамилия</label>
+                 <input class="form-control form-control-email" name="surname" id="surname" placeholder="" type="text" required>
+                   <!-- <input type="text" name="surname" placeholder="Фамилия" required> -->
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label>Email</label>
+               <input class="email form-control form-control-email" name="email" id="email" placeholder="" type="email" required>
+                   <!-- <input type="email" name="email" placeholder="Email" required> -->
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label>Телефон</label>
+                 <input class="phone form-control form-control-subject" placeholder="" name="phone" id="subject" placeholder="" type="text" > 
+                  <!-- <input type="text" class="phone" name="phone" placeholder="Телефон"> -->
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Сообщение</label>
+           <textarea class="form-control form-control-message" name="text" id="" cols="30" placeholder="Введите техт" rows="10"></textarea> 
+                <!-- <textarea name="text" id="" cols="30" rows="10" placeholder="Введите текст"></textarea> -->
+           
+          </div>
+          <div class="text-right"><br>
+            <button class="btn btn-primary solid blank send-form" type="button">Отправить</button> 
+            <!-- <button type="button" class="send-form">Отправить</button> -->
+        
+        <div class="status"></div>
+        <br>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</form>
+
+
+ <footer id="footer" class="footer bg-overlay">
+    <div class="footer-main">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-4 col-md-6 footer-widget footer-about">
+            <h3 class="widget-title">Контакты</h3>
+            
+            <p>г.Павловский Посад, </p>
+            <p>пер.Интернациональный, 38</p>
+           
+           
+          
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+            <!-- <h3 class="widget-title">   </h3> -->
+            <div class="working-hours">
+                 <p>+7 (916) 323-70-13</p>
+               <p>+7 (925) 867-48-25</p>
+               <p> fgd@gksplav.ru</p>
+              <br><br> <span class="text-right"></span>
+            
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+            <!-- <h3 class="widget-title">   </h3> -->
+            <ul class="list-arrow">
+              <li><a href="Gallery.html">Галерея</a></li>
+              <li><a href="Scheme.html">Схема парка</a></li>
+              <!-- <li><a href="Info.html">О нас</a></li> -->
+             
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </footer>
+
+
+  
+
+
+  <script src="plugins/jQuery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js" defer></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/slick/slick-animation.min.js"></script>
+  <script src="plugins/colorbox/jquery.colorbox.js"></script>
+  <script src="plugins/shuffle/shuffle.min.js" defer></script>
+  <script src="js/script.js"></script>
+
+  </div>
+  </body>
+
+  </html>
